@@ -1,0 +1,131 @@
+
+body{
+    font-size: 11px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+.menu1 {
+    padding: 10px;
+    line-height: 20px;
+    background-color: #444444;
+    color: #fff;
+    margin: 80px 0px 0px 50px;
+    width: 200px;
+    height: 200px;
+    display: none;
+    float: left;
+}
+.menu2 {
+    display: none;
+    float: left;
+    margin: 80px 0px 0px 280px;
+    right: 900px;
+    position: fixed;
+}
+.header {
+    color: #fff;
+    padding: 20px;
+    background-color: #147dce;
+    width: 100%;
+    float: left;
+}
+.header h1 {
+    float: left;
+    width: 80%;
+    margin:2px;
+}
+.header p {
+    float: left;
+    width: 80%;
+    margin:2px;
+}
+.tulisan {
+    float: left;
+    width: 80%;
+}
+.toggle_icon img {
+    cursor: pointer;
+    margin: 0px;
+    float: right;
+    padding: 1vw 0vw 0vw 0vw;
+    display: none;
+}
+.menu {
+    background-color: #7dc96a;
+    color: #161616;
+    font-weight: bold;
+}
+.menu li {
+    text-align: center;
+    cursor: pointer;
+    margin: 0;
+    width: 17%;
+    padding: 10px;
+    display: inline-block;
+    }
+.menu li:hover {
+    background-color: #5bb245;
+}
+.left {
+    background-color: #2196F3;
+    padding: 20px;
+    float: left;
+    width: 20%;
+    height: 364px;
+}
+.main {
+    background-color: #f1f1f1;
+    padding: 20px;
+    float: left;
+    width: 100%;
+}
+.right {
+    background-color: #4CAF50;
+    padding: 20px;
+    float: left;
+    width: 20%;
+}
+
+.important {
+    font-weight: normal;
+}
+.tombol {
+    font-size: 10px;
+    margin: 0px 0px 8px 0px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #4fa33a;
+    float: left;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+    animation-duration: 0.2s;
+}
+.tombol:nth-child(even) {
+    margin-right: 15px; 
+}
+.tombol:hover {
+    background-color: #6ac454;
+}
+.tombol p {
+    padding: 10px 0px 0px 0px;
+    margin: 0px;
+}
+
+@media screen and (max-width: 740px){
+    .menu {
+        display: none;
+    }
+    .left, .main, .right {
+        width: 100%;
+    }
+    .header img {
+        display: block;
+    }
+    }

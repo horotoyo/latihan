@@ -1,0 +1,90 @@
+body{
+    font-size: 11px;
+}
+.important {
+    font-weight: normal;
+}
+.tombol {
+    font-size: 10px;
+    margin: 0px 0px 8px 0px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #4fa33a;
+    float: left;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+    animation-duration: 0.2s;
+}
+.tombol:nth-child(even) {
+    margin-right: 15px; 
+}
+.tombol:hover {
+    background-color: #6ac454;
+}
+.tombol p {
+    padding: 10px 0px 0px 0px;
+    margin: 0px;
+}
+.table0 td {
+    font-family: sans-serif;
+    color: #000;
+    border-collapse: collapse;
+    border: 0px;
+}
+ 
+.table1 {
+    font-family: sans-serif;
+    color: #000;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #b2b2b2;
+}
+ 
+.table1 tr th{
+	height: 30px;
+    background: #70ad47;
+    color: #fff;
+    border: 1px solid #b2b2b2;
+}
+ 
+.table1, tr, td {
+    padding: 8px 20px;
+    text-align: center;
+    border: 1px solid #b2b2b2;
+    transition-duration: 0.09s;
+}
+
+.table1 tr:hover {
+    background-color: #c5e0b3;
+}
+.font {
+    font-family: sans-serif;
+    color: #000;
+}
+#header {
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    font-style: bold;
+    padding:10px 0;
+}
+
+
+button {
+    font-weight: bold;
+    border: none;
+    background-color: #70ad47;
+    color: #fff;
+    cursor: pointer;
+    height: 30px;
+    width: 145px;
+    margin: 0px 0px 8px 0px;
+    animation-duration: 0.2s;
+}
+button:hover {
+    background-color: #70b73e;
+}

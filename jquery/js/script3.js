@@ -1,0 +1,32 @@
+$(document).ready(function(){
+	$(".hide-all").click(function(){
+		$("*").hide();
+	});
+	$("#sembunyi").click(function(){
+		$("#content").hide();
+	});
+	$("#tampil").click(function(){
+		$("#content").show();
+	});
+	$("#up").click(function(){
+		$(":button").slideUp("slow");
+	});
+	$("#down").click(function(){
+		$(":button").slideDown("slow");
+	});
+	$("button.important").click(function(){
+		$("b.important").hide();
+	});
+	$(".news").click(function(){
+		$(".new").css("background-color", "#d4f2bf");
+	});
+	$("button#hide").click(function(){
+		$("tr:last").hide();
+	});
+	$(".danger1").click(function(){
+		$(".danger").css("color", "red");
+	});
+	$(".this").click(function(){
+		$(this).hide();
+	});
+});
