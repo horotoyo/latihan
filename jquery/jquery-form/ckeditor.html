@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>CK Editor</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/all.css?=1.0">
+	<link rel="stylesheet" type="text/css" href="css/all.css?=1.2">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+	<form>
+		<div class="box-body">
+
+<!-- 			<div class="form-group">
+				<label for="nama">nama</label>
+				<input type="text" id="nama" class="form-control" name="nama">
+			</div>
+
+			<div class="form-group">
+				<label for="email">Email</label>
+				<input type="email" id="email" class="form-control" name="konfirmasi_password">
+			</div> -->
+
+			<div class="form-group">
+				<label for="pesan">Pesan 1</label>
+				<textarea name="pesan" class="masukan" id="pesan"></textarea>
+				<div id="char_namb">0</div>
+			</div>
+
+			<div class="form-group">
+				<button type="submit"><i class="fas fa-paper-plane"></i> Kirim</button>
+			</div>
+
+<!-- 			<div class="form-group" id="editor1" contenteditable="true">
+				<h1>Ini adalah sebuah judul buku</h1>
+				<p>Ini adalah isi artikel</p>
+			</div> -->
+
+		</div>
+	</form>
+</div>
+
+<script src="js/jquery-3.3.1.js"></script>
+<script src="ckeditor-dev/ckeditor.js"></script>
+<script type="text/javascript">	
+	CKEDITOR.replace('pesan');
+</script>
+<script>
+	$(document).ready(function(){
+	    $('.masukan').keyup(function(){
+	      var charsno = $('.masukan').val().length;
+	      $('#char_namb').html(charsno);
+	    });
+	});
+</script>
+</body>
+</html>

@@ -50,7 +50,6 @@ table {
 /*Start CSS Style*/
 body {
 	font-family: 'Lato', sans-serif;
-	font-size: 12px;
 	margin: auto;
 	padding: 0;
 }
@@ -59,9 +58,9 @@ body {
 	padding: 10px;
 }
 
-.box-body {
+.box-body {	
 	box-sizing: border-box;
-	width: 50%;
+	width: 100%;
 	padding: 10px;
 }
 
@@ -71,6 +70,7 @@ body {
 }
 
 .form-group label {
+	font-size: 12px;
 	font-weight: bold;
 	width: 100%;
 }
@@ -99,4 +99,9 @@ body {
 }
 .form-group button:hover {
 	background-color: #00aeff;
+}
+.form-group h1 {
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 10px;
 }
