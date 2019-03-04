@@ -1,0 +1,160 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #1f232c;
+	line-height: 1.15;
+	font-weight: normal;
+}
+.container {
+	width: 100%;
+	box-sizing: content-box;
+	margin: auto;
+}
+.wrapper {
+	max-width: 1200px;
+	box-sizing: border-box;
+	margin: auto;
+}
+header {
+	width: 100%;
+	background-color: #f5f7fa;
+}
+
+header ul li {
+	display: inline-block;
+}
+header a {
+	font-size: 12px;
+	font-weight: bold;
+	padding: 15px;
+	display: inline-block;
+	color: #557089;
+	text-decoration: none;
+	transition-duration: 0.2s;
+	font-weight: normal;
+}
+header a:hover {
+	color: #fff;
+}
+header .left a:hover {
+	color: #00bc9c;
+}
+
+header #fb a:hover {
+	background-color: #4668b3;
+}
+header #google a:hover {
+	background-color: #de5745;
+}
+header #twit a:hover {
+	background-color: #2fbbed;
+}
+header #pint a:hover {
+	background-color: #d94348;
+}
+header #behan a:hover {
+	background-color: #3079ff;
+}
+header #drib a:hover {
+	background-color: #eb6397;
+}
+
+header i:before {
+	display: block;
+}
+header .sosmed-home i:before {
+	display: block;
+}
+
+.main {
+	width: 100%;
+	box-sizing: content-box;
+}
+.header-top .wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.header-main {
+	background-color: #fff;
+}
+.header-main .wrapper {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.header-main .wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.header-main .wrapper .menu {
+	display: flex;
+	justify-content: space-between;
+}
+.header-main .menu li {
+	margin: 10px 0 0 0;
+}
+.header-main .menu a {
+	font-size: 15px;
+	transition-duration: 0.2s;
+	font-weight: bold;
+	padding: 15px 20px;
+}
+.header-main .menu a:hover {
+	color: #00bc9c;
+}
+.header-main .menu #search_menu {
+	margin-left: 150px;
+}
+.header-main .menu #search_menu a {
+	padding-right: 10px;
+}

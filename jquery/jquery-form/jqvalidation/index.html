@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>JQ Form Validation</title>
+	<link rel="stylesheet" type="text/css" href="css/all.css?=1.0">
+	<link rel="stylesheet" type="text/css" href="css/all.css?=1.2">
+	<script src="lib/jquery.js"></script>
+	<script src="dist/jquery.validate.js?=1.0"></script>
+	<script src="dist/jquery.validate.js?=1.1"></script>
+	<script src="js/jq-valid.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="container">
+	<div id="main">
+		<form class="cmxform" id="signupForm" method="get" action="">
+			<div class="box-body">
+
+				<div class="form-group">
+					<label for="firstname">Nama Depan</label>
+					<input id="firstname" class="form-control" name="firstname" type="text">
+				</div>
+
+				<div class="form-group">
+					<label for="lastname">Nama Belakang</label>
+					<input id="lastname" class="form-control" name="lastname" type="text">
+				</div>
+
+				<div class="form-group">
+					<label for="fullname">Nama Lengkap</label>
+					<input type="text" id="fullname" class="form-control" name="fullname">
+					<span class="pesan warning3">Anda harus mengisi nama lengkap!</span>
+				</div>
+
+				<div class="form-group">
+					<label for="username">Username</label>
+					<input id="username" class="form-control" name="username" type="text">
+				</div>
+
+				<div class="form-group">
+					<label for="email">Email</label>
+					<input id="email" class="form-control" name="email" type="email">
+				</div>
+
+				<div class="form-group">
+					<label for="password">Password</label>
+					<input id="password" class="form-control" name="password" type="text">
+				</div>
+
+				<div class="form-group">
+					<label for="confirm_password">Konfirmasi Password</label>
+					<input id="confirm_password" class="form-control" name="confirm_password" type="text">
+				</div>
+
+				<div class="form-group">
+					<label for="co_url">Alamat Website</label>
+					<input id="co_url" class="form-control required defaultInvalid url" maxlength="40" name="co_url" type="text" tabindex="2" value="http://">
+				</div>
+
+				<div class="form-group">
+					<label for="fruit">Minat <em>(Pilihan minimal 2)</em></label>
+					<select class="form-control" id="fruit" name="fruit" required minlength="2" multiple style="height: 98px; padding: 5px;">
+						<option>-- Silahkan Pilih Minat --</option>
+						<option value="manager">Manager</option>
+						<option value="staff">Staff</option>
+						<option value="supervisor">Supervisor</option>
+						<option value="direktur">Direktur</option>
+					</select>
+				</div>
+
+				<div class="form-group">
+					<label for="pesan">Pesan</label>
+					<textarea id="pesan" class="form-control"></textarea>
+				</div>
+
+				<div class="form-group">
+				<p>Setuju? <input type="checkbox" name="agree"><br> Harap Setuju dengan form ini<br></p>
+				<button type="submit"><i class="fas fa-paper-plane"></i> Kirim</button>
+				</div>
+
+			</div>
+		</form>
+	</div>
+</div>
+</body>
+</html>

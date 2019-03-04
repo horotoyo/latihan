@@ -51,23 +51,73 @@ table {
 body {
 	font-family: 'Lato', sans-serif;
 	margin: auto;
-	padding: 20px;
+	padding: 0;
 }
 
 .container {
 	padding: 10px;
 }
 
-a {
-	background-color: #00a9ff;
+.box-body {	
+	box-sizing: border-box;
+	width: 100%;
 	padding: 10px;
-	margin: 10px;
-	text-decoration: none;
-	color: #fff;
-	border-radius: 3px;
-	animation-delay: 1s;
-	animation-duration: 1s;	
 }
-a:hover {
-	background-color: #028ace;
+
+.form-group {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.form-group label {
+	font-size: 12px;
+	font-weight: bold;
+	width: 100%;
+}
+
+.form-control {
+	border-radius: 2px;
+	border: 1px solid #c9c9c9;
+	height: 25px;
+	width: 100%;
+	margin-top: 5px;
+	margin-right: 0px;
+}
+.form-group em {
+	font-weight: normal;
+	font-style: normal;
+}
+
+.form-group button {
+	margin-top: 5px;
+	padding: 5px;
+	border: 1px solid #00a6ed;
+	cursor: pointer;
+	background-color: #0087cc;
+	color: #fff;
+	border-radius: 2px;
+	animation-duration: 0.2s;
+}
+.form-group button:hover {
+	background-color: #00aeff;
+}
+.form-group h1 {
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.pesan {
+	font-size: 12px;
+	display: none;
+	color: red;
+	margin-top: 5px;
+}
+input {
+	padding-left: 10px;
+	color: #000;
+}
+p {
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 20px;
 }
