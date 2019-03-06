@@ -1,0 +1,118 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Start CSS Style*/
+body {
+	font-family: 'Lato', sans-serif;
+	margin: auto;
+	padding: 0;
+}
+
+.container {
+	padding: 10px;
+}
+
+.box-body {	
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px;
+}
+
+.form-group {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.form-group label {
+	font-size: 12px;
+	font-weight: bold;
+	width: 100%;
+}
+
+.form-control {
+	border-radius: 2px;
+	border: 1px solid #c9c9c9;
+	height: 25px;
+	width: 100%;
+	margin-top: 5px;
+	margin-right: 0px;
+}
+.form-group em {
+	font-weight: normal;
+	font-style: normal;
+}
+
+.form-group button {
+	margin-top: 5px;
+	padding: 5px;
+	border: 1px solid #00a6ed;
+	cursor: pointer;
+	background-color: #0087cc;
+	color: #fff;
+	border-radius: 2px;
+	animation-duration: 0.2s;
+}
+.form-group button:hover {
+	background-color: #00aeff;
+}
+.form-group h1 {
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.pesan {
+	font-size: 12px;
+	display: none;
+	color: red;
+	margin-top: 5px;
+}
+input {
+	padding-left: 10px;
+	color: #000;
+}
